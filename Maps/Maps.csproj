@@ -6,4 +6,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <TypeScriptCompile Include="wwwroot\js\HelloWorld.ts" />
+    </ItemGroup>
+
 </Project>

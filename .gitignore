@@ -2,3 +2,6 @@
 bin/
 obj/
 lib/
+node_modules/
+dist/
+Maps.sln.DotSettings.user

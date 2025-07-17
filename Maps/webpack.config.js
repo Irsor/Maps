@@ -8,10 +8,13 @@ module.exports = {
         filename: "bundle.js",
         path: path.resolve(__dirname, bundleFolder)
     },
+    resolve: {
+        extensions: [".js", ".ts"]
+    },
     module: {
         rules: [
             {
-                test: /\.js$/,
+                test: /\.(js|ts)$/,
                 exclude: /(node_modules|bower_components)/,
                 use: {
                     loader: "babel-loader",
